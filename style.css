@@ -1,0 +1,20 @@
+#app {
+    display: grid;
+
+    h1 {
+        color: red;
+    }
+
+    .sticker-1 {
+        background-image: url('./images/01.png');
+    }
+    .sticker-2 {
+        background-image: url('./images/02.png');
+    }
+    .sticker-3 {
+        background-image: url('./images/03.png');
+    }
+    .sticker-4 {
+        background-image: url('./images/04.png');
+    }
+}

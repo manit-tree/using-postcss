@@ -1,0 +1,19 @@
+{
+  "name": "using-postcss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx postcss input.css > output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "postcss-cli": "^11.0.0",
+    "postcss-scss": "^4.0.9",
+    "postcss-import": "^16.1.0",
+    "postcss-lightningcss": "^1.0.1",
+    "postcss-sprites": "^4.2.1"
+  }
+}

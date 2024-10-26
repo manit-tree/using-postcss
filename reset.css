@@ -1,0 +1,27 @@
+:root {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+  line-height: 1.4;
+}
+
+*, :before, :after {
+  box-sizing: interit;
+}
+
+:focus-visible {
+  outline: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
